@@ -21,7 +21,7 @@ const scene = new THREE.Scene()
  */
 const textureLoader = new THREE.TextureLoader()
 
-const matcapTexture = textureLoader.load('/textures/matcaps/8.png')
+const matcapTexture = textureLoader.load('/textures/matcaps/3.png')
 matcapTexture.colorSpace = THREE.SRGBColorSpace;
 /**
  * Fonts
@@ -99,7 +99,7 @@ pointLight.position.z = 4
 scene.add(pointLight)
 
 
-// axis
+// // axis
 // const axesHelper = new THREE.AxesHelper();
 // scene.add(axesHelper)
 
