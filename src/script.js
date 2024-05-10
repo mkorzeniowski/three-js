@@ -100,8 +100,8 @@ scene.add(pointLight)
 
 
 // axis
-const axesHelper = new THREE.AxesHelper();
-scene.add(axesHelper)
+// const axesHelper = new THREE.AxesHelper();
+// scene.add(axesHelper)
 
 
 /**
